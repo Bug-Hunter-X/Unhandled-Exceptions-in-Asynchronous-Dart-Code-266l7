@@ -1,0 +1,3 @@
+# Unhandled Exceptions in Asynchronous Dart Code
+
+This repository demonstrates a common issue in Dart asynchronous programming: insufficient exception handling. The provided code fetches data from an API and includes a `try-catch` block to handle potential errors. However, the current implementation only prints error messages. For better error management, exceptions should be handled appropriately at different levels of the application. The solution provides improved error handling using a custom exception class and a more informative error message.
